@@ -1,6 +1,6 @@
 # Restaurant-API
 
-Made with tutorial by [Jakub Kozera](https://www.youtube.com/c/FullstackDeveloperPL)
+Made with course by [Jakub Kozera](https://www.youtube.com/c/FullstackDeveloperPL)
 
 - ASP.NET Core (.Net 6)
 - MSSQL
