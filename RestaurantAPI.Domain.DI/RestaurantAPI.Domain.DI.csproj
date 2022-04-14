@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="NLog" Version="4.7.15" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantAPI.Domain.Common\RestaurantAPI.Domain.Common.csproj" />
+    <ProjectReference Include="..\RestaurantAPI.Domain.Facades\RestaurantAPI.Domain.Facades.csproj" />
+    <ProjectReference Include="..\RestaurantAPI.Domain.Interfaces.Facades\RestaurantAPI.Domain.Interfaces.Facades.csproj" />
+    <ProjectReference Include="..\RestaurantAPI.Domain.Interfaces.Infrastructure\RestaurantAPI.Domain.Interfaces.Infrastructure.csproj" />
+    <ProjectReference Include="..\RestaurantAPI.Infrastructure.EntityFramework\RestaurantAPI.Infrastructure.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>
